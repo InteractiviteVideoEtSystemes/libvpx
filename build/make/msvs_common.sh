@@ -9,7 +9,7 @@
 ##  be found in the AUTHORS file in the root of the source tree.
 ##
 
-if [ "$(uname -o 2>/dev/null)" = "Cygwin" || "$(uname -o 2>/dev/null)" = "Msys"] \
+if [ "$(uname -o 2>/dev/null)" = "Cygwin" || "$(uname -o 2>/dev/null)" = "Msys" ] \
    && cygpath --help >/dev/null 2>&1; then
     FIXPATH='cygpath -m'
 else
